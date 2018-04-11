@@ -2,9 +2,22 @@
   "name": "@slimkit/four",
   "version": "0.0.1",
   "description": "Integration Payment - Building your fourth party payment.",
-  "main": "src/main.ts",
   "repository": "https://github.com/slimkit/four.git",
   "author": "Seven Du <shiweidu@outlook.com>",
   "license": "Apache-2",
-  "private": true
+  "private": true,
+  "scripts": {
+    "start": "ts-node src/main.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^9.6.4",
+    "ts-node": "^5.0.1",
+    "typescript": "^2.8.1"
+  },
+  "dependencies": {
+    "@nestjs/common": "^4.6.6",
+    "@nestjs/core": "^4.6.6",
+    "reflect-metadata": "0.1.10",
+    "rxjs": "^5.5.9"
+  }
 }
