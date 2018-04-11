@@ -1,0 +1,10 @@
+{
+  "name": "@slimkit/four",
+  "version": "0.0.1",
+  "description": "Integration Payment - Building your fourth party payment.",
+  "main": "src/main.ts",
+  "repository": "https://github.com/slimkit/four.git",
+  "author": "Seven Du <shiweidu@outlook.com>",
+  "license": "Apache-2",
+  "private": true
+}
