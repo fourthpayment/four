@@ -7,18 +7,9 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const common_1 = require("@nestjs/common");
-const core_module_1 = require("@fourthpayment/core/modules/core.module");
-const graphql_module_1 = require("@fourthpayment/graphql/modules/graphql.module");
-const restful_module_1 = require("@fourthpayment/restful/modules/restful.module");
-let ApplicationModule = class ApplicationModule {
+let RestfulModule = class RestfulModule {
 };
-ApplicationModule = __decorate([
-    common_1.Module({
-        imports: [
-            core_module_1.CoreModule,
-            graphql_module_1.GraphqlModule,
-            restful_module_1.RestfulModule,
-        ],
-    })
-], ApplicationModule);
-exports.ApplicationModule = ApplicationModule;
+RestfulModule = __decorate([
+    common_1.Module({})
+], RestfulModule);
+exports.RestfulModule = RestfulModule;
