@@ -17,5 +17,8 @@
     "bugs": {
         "url": "https://github.com/fourthpayment/four/issues"
     },
-    "homepage": "https://github.com/fourthpayment/four#readme"
+    "homepage": "https://github.com/fourthpayment/four#readme",
+    "dependencies": {
+        "@nestjs/graphql": "^2.0.0"
+    },
 }
