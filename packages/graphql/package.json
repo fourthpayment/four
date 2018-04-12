@@ -20,5 +20,5 @@
     "homepage": "https://github.com/fourthpayment/four#readme",
     "dependencies": {
         "@nestjs/graphql": "^2.0.0"
-    },
+    }
 }
