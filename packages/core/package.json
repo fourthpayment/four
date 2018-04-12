@@ -1,6 +1,6 @@
 {
     "name": "@fourthpayment/core",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Core package for fourthpayment.",
     "license": "Apache-2.0",
     "author": {
@@ -10,8 +10,6 @@
     "repository": {
         "type": "git",
         "url": "git+https://github.com/fourthpayment/four.git"
-    },
-    "dependencies": {
     },
     "engines": {
         "node": ">=9.0.0"
