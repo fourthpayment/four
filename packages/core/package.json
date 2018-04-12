@@ -1,6 +1,6 @@
 {
     "name": "@fourthpayment/core",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "Core package for fourthpayment.",
     "license": "Apache-2.0",
     "author": {
