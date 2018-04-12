@@ -1,3 +1,5 @@
-import { NoticeController } from './notice';
+import { NoticeController } from "./notice";
 
-export default [ NoticeController ];
+export default [
+    NoticeController,
+];
