@@ -1,4 +1,5 @@
 const gulp = require("gulp");
+const nodemon = require("gulp-nodemon");
 const rename = require("gulp-rename");
 const sequence = require("gulp-sequence");
 const ts = require("@notadd/gulp-typescript");
@@ -8,6 +9,7 @@ const packages = {
     core: ts.createProject("src/core/tsconfig.json"),
     graphql: ts.createProject("src/graphql/tsconfig.json"),
     restful: ts.createProject("src/restful/tsconfig.json"),
+    server: ts.createProject("src/server/tsconfig.json"),
 };
 
 const dist = "packages";
@@ -17,10 +19,23 @@ const modules = Object.keys(packages);
 
 gulp.task("default", function () {
     tasks();
+    nodemon({
+        script: "starter/bootstrap.js",
+        watch: [
+            "packages/",
+            "starter/",
+        ],
+        ext: "js"
+    });
 });
 
 modules.forEach(module => {
     gulp.task(module, () => {
+        let target = `${dist}/${module}`;
+        if (module === "server") {
+            target = "starter";
+        }
+
         return packages[module]
             .src()
             .pipe(tslint({
@@ -31,7 +46,7 @@ modules.forEach(module => {
                 summarizeFailureOutput: true,
             }))
             .pipe(packages[module]())
-            .pipe(gulp.dest(`${dist}/${module}`));
+            .pipe(gulp.dest(target));
     });
 });
 
