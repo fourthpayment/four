@@ -16,3 +16,5 @@ AlipayModule = __decorate([
     })
 ], AlipayModule);
 exports.AlipayModule = AlipayModule;
+
+//# sourceMappingURL=index.js.map

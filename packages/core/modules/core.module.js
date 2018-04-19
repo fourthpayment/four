@@ -19,3 +19,5 @@ CoreModule = __decorate([
     __metadata("design:paramtypes", [])
 ], CoreModule);
 exports.CoreModule = CoreModule;
+
+//# sourceMappingURL=core.module.js.map

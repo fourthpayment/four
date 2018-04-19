@@ -1,0 +1,1 @@
+{"version":3,"sources":["modules/restful.module.ts"],"names":[],"mappings":";;;;;;;;;;;AAAA,2CAAwC;AAIxC,IAAa,aAAa,GAA1B;IACI;IACA,CAAC;CACJ,CAAA;AAHY,aAAa;IAFzB,eAAM,CAAC,EACP,CAAC;;GACW,aAAa,CAGzB;AAHY,sCAAa","file":"restful.module.js","sourcesContent":["import { Module } from \"@nestjs/common\";\n\n@Module({\n})\nexport class RestfulModule {\n    constructor() {\n    }\n}\n"]}

@@ -19,3 +19,5 @@ GraphqlModule = __decorate([
     __metadata("design:paramtypes", [])
 ], GraphqlModule);
 exports.GraphqlModule = GraphqlModule;
+
+//# sourceMappingURL=graphql.module.js.map

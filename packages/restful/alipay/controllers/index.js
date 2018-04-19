@@ -4,3 +4,5 @@ const notice_1 = require("./notice");
 exports.default = [
     notice_1.NoticeController,
 ];
+
+//# sourceMappingURL=index.js.map

@@ -19,3 +19,5 @@ RestfulModule = __decorate([
     __metadata("design:paramtypes", [])
 ], RestfulModule);
 exports.RestfulModule = RestfulModule;
+
+//# sourceMappingURL=restful.module.js.map

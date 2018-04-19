@@ -25,3 +25,5 @@ NoticeController = __decorate([
     common_1.Controller("alipay")
 ], NoticeController);
 exports.NoticeController = NoticeController;
+
+//# sourceMappingURL=notice.js.map

@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.ts"],"names":[],"mappings":";;AAAA,qCAAuC;AAA9B,+BAAA,UAAU,CAAA","file":"index.js","sourcesContent":["export { CoreModule } from \"./modules\";\n"]}
